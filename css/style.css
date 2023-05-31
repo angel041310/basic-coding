@@ -1,0 +1,55 @@
+.top {
+    background-color: #cbf3ff;
+    margin-top: 0px;
+    width:auto;
+}
+
+h1 {
+    font-size:50px;
+    color: #09292e;
+    padding-top: 15px;;
+    text-align: center 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair&display=swap'); 
+p {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #18555e;
+    text-align: center; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair&display=swap');
+#menu ul li {
+    background-color: rgba(254, 255, 170, 0.815);
+    font-family: 'Playfair', serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.xyz-zoo {
+    background-image: url(https://media.istockphoto.com/id/1214749834/photo/happy-mother-and-son-watching-and-feeding-giraffe-in-zoo-happy-family-having-fun-with-animals.jpg?s=612x612&w=0&k=20&c=rUToXIwc2CQr0I5-GIqZSDtSQrdFQtMZ9xxgp__J22I=);
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.table-form {
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color:#1e7583;
+}
+a:active {
+    color: rgb(240, 108, 130);
+}
