@@ -5,19 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table and Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=M+PLUS+1:wght@800&display=swap" rel="stylesheet">
     <style>
-        table, th, td {
-            border: solid 1px black;
+        body {
+            background-color: rgb(248, 244, 253);
         }
+        h1{
+            font-size: 45px;
+            font-family: 'M PLUS 1', sans-serif;
+            color: rgb(35, 28, 73);
+            background-color: rgb(255, 255, 255);
+            position: sticky;
+            top: 0;
+            padding-left: 20px;
+        }
+        table, th, td {
+            border: solid 2px rgb(57, 5, 70);
+            border-radius: 3px;
+        }
+        table{
+            width:50%;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+            height: 30px;
+            background-color: white;
+        }
+        td, th{
+            font-family: 'Kiwi Maru', serif;
+        }
+        .header{
+            height: 50px;
+        }
+        th{
+            background-color: rgb(247, 234, 255);
+        }
+        button {
+            background-color: rgb(195, 253, 219);
+            font-weight: bolder;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: 5px;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 3px;
+            padding-right: 10px;
+            font-size: 18px;
+        }
+
+        form{
+            font-family: 'Kiwi Maru', serif;
+        }
+
+        h2{
+            color: rgb(78, 56, 87);
+        }
+
     </style>
 </head>
 <body>
-    <h2>対戦結果</h2>
-    <h3>第73回JABA九州大会</h3>
+    <h1>対戦結果</h1>
+    <h2>第73回JABA九州大会</h2>
     <p>2021年5月9日(日) 9:00<br>
     試合会場：オーヴィジョンスタジアム下関</p>
         <table>
-            <tr>
+            <tr class="header">
                 <th>チーム名</th>
                 <th>1</th>
                 <th>2</th>
@@ -70,7 +126,7 @@
             </tr>
         </table>
 
-    <h3>お問い合わせ</h3>
+    <h2>お問い合わせ</h2>
         <form>
             <label for="nama">お名前 [必須]</label>
             <input type="text" id="nama" name="nama"><br>
