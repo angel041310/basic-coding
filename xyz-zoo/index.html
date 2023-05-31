@@ -18,7 +18,9 @@
             color: rgb(35, 65, 26);
             font-family: 'Bungee Inline', cursive;
             background-color: rgb(233, 217, 172);
-            padding-left: 30px;
+            text-align: center;
+            position: sticky;
+            top: 0;
         }
         h2 {
             font-family: 'Familjen Grotesk', sans-serif;
@@ -38,6 +40,18 @@
             color: rgb(78, 54, 37);
             font-weight: 300;    
         }
+        .utama{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #lynx{
+            float: left;
+            width: 50%;
+            padding: 5px;
+            height: 100px;
+        }
     </style>
 </head>
 <body>
@@ -46,10 +60,10 @@
         <ul>
             <li>
              <h2>Feline</h2>
-             <ul>
-                <li>
+             <ul class="feline">
+                <li id="lynx">
                 <h3>Lynx</h3><a href="IMG/lynx.jpg" target="_blank"><img src="IMG/lynx.jpg" width="500"/></a></li>
-                <li>
+                <li id="lion">
                 <h3>Lion</h3><a href="IMG/lion.jpg" target="_blank"><img src="IMG/lion.jpg" width="500"/></a></li>  
             </ul> 
             </li>
