@@ -65,13 +65,21 @@
             color: rgb(78, 56, 87);
         }
 
+        option {
+            font-family: 'Kiwi Maru', serif;
+        }
+
     </style>
 </head>
 <body>
-    <h1>対戦結果</h1>
-    <h2>第73回JABA九州大会</h2>
-    <p>2021年5月9日(日) 9:00<br>
+<div class="wrapper">
+    <div id="desc">
+        <h1>対戦結果</h1>
+        <h2>第73回JABA九州大会</h2>
+        <p>2021年5月9日(日) 9:00<br>
     試合会場：オーヴィジョンスタジアム下関</p>
+    </div>
+    <div id="tabel">
         <table>
             <tr class="header">
                 <th>チーム名</th>
@@ -125,7 +133,9 @@
                 <td>投手：榎本 <br> 捕手：川上</td>
             </tr>
         </table>
+    </div>
 
+    <div id="form">
     <h2>お問い合わせ</h2>
         <form>
             <label for="nama">お名前 [必須]</label>
@@ -151,5 +161,7 @@
             <br>
             <button type="button">確認</button>
         </form>
+    </div>
+</div>
 </body>
 </html>
