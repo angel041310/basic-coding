@@ -51,25 +51,11 @@
             max-width: 100%;
         }
 
-        #lynx{
-            float: left;
-            width: 50%;
-            padding: 5px;
-            height: 100px;
-        }
-
-        #wolf{
-            float: left;
-            width: 50%;
-            padding: 5px;
-            height: 100px;
-        }
-
-        #parrot{
-            float: left;
-            width: 50%;
-            padding: 5px;
-            height: 100px;
+        .feline, .canine, .bird{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            justify-content: space-around;
         }
 
         #contents{
@@ -80,6 +66,10 @@
             margin-left: auto;
             margin-right: auto;
             width: 100%;
+        }
+
+        li, h2{
+            margin-left: 20px;
         }
 
     </style>
@@ -104,7 +94,7 @@
 
                 <br/><li>
                 <h2>Canine</h2>
-                <ul>
+                <ul class="canine">
                     <li id="wolf">
                     <h3>Wolf</h3><a href="IMG/wolf.jpg" target="_blank"><img src="IMG/wolf.jpg" width="500"/></a></li>
                     <li id="coyote">
@@ -114,7 +104,7 @@
 
                 <br/><li>
                 <h2>Bird</h2>
-                <ul>
+                <ul class="bird">
                     <li id="parrot">
                     <h3>Parrot</h3><a href="IMG/parrot.jpg" target="_blank"><img src="IMG/parrot.jpg" width="500"/></a></li>
                     <li id="owl">
