@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair&display=swap');
+
 body{
     background-color: rgba(240, 255, 239, 0.608);
 }
@@ -11,38 +14,26 @@ body{
 h1 {
     font-size:50px;
     color: #09292e;
-    padding-top: 15px;;
-    text-align: center 
+    padding-top: 15px;
+    text-align: center; 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair&display=swap'); 
 p {
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     color: #18555e;
     text-align: center; 
     padding-bottom: 15px;
+    font-style: italic;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair&display=swap');
 #menu ul li {
     font-family: 'Playfair', serif;
     font-size: 35px;
     text-align: center;
 }
 
-.xyz-zoo {
-    background-color: rgba(254, 255, 170, 0.815);
-    display: block;
-    width: 300px;
-    height: 40px; 
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.table-form {
+.xyz-zoo, .table-form {
     background-color: rgba(254, 255, 170, 0.815);
     display: block;
     width: 300px;
